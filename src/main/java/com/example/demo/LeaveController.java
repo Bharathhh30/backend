@@ -6,7 +6,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api/leaves")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://leave-application-one.vercel.app")
 public class LeaveController {
 
     @Autowired

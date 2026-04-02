@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 		
 @RestController
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://leave-application-one.vercel.app")
 @RequestMapping("/api/users")
 public class UserController {
 
